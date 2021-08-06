@@ -45,5 +45,16 @@ run docker
 docker run -p 8000:8000 my_hello
 ```
 
+Open another terminal & get running dockers
+```bash
+docker ps
+```
+
+Get ip address of runninh docker
+```bash
+docker inspect <docker_id>
+```
+
+
 
 
